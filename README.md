@@ -14,7 +14,12 @@ Overview
 
 
 ## Requirement
-
+- python
+- numpy
+- pandas
+- pytorch_lightning
+- torch
+- 
 ## Install
 
 ## Usage
