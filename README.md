@@ -1,7 +1,6 @@
 prediction and analysis in log S
 ====
 
-Overview
 〜という論文に使用したコードとデータです。このリポジトリはGNNによる学習モデルの構築、予測、結果の分析、データの4つにカテゴライズされています。
 ## Description
 ### Data
