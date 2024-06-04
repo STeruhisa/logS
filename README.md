@@ -5,21 +5,8 @@ prediction and analysis in log S
 ## Description
 ### Data
 原子の特徴はMAPとIAPの2種類の中から選ぶことができ、使用しない方をコメントアウトして使います。<br>(example)もしあなたがIAPを使用したいなら
-　#####   MAP
-　#   'prop_list': ['csed_charge','fukui_minus','volume','c6','Faniso_shield','atom_orbene','voronoi','afluc'],
-　#   'coarse_graining_params': { 'coarse_graining': 0, # performe coarse graining (1) or not (0)
-　#                               'num_bin' : 8,        # number of bins for the coarse graining
-　#                               'prop_min': [-1.0,-0.43,3.0,0.0,0.0,0.0,0.0,0.0],
-　#                               'prop_max': [1.0,0.53,60.4,100.0,1.0,2.0,0.7,1.4]
-　#                              }, 
-　######   IAP 
-     'prop_list': ['eff_chg','pol','radii','ion1','aff','mass','voronoi','afluc'],
-     'coarse_graining_params': { 'coarse_graining': 0, # performe coarse graining (1) or not (0)
-                                 'num_bin' : 8,        # number of bins for the coarse graining
-                                 'prop_min': [1.0,3.0,20.0,10.0,0.0,1.0,0.0,0.0],
-                                 'prop_max': [10.0,30.0,120.0,20.0,5.0,100.0,1.0,10.0]
-                               },
 
+![choice](https://github.com/STeruhisa/logS/assets/171115343/dc9a69f3-04ef-4c17-99fa-28a3c2ddf47d)
 
 
 
