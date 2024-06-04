@@ -28,9 +28,9 @@ prediction and analysis in log S
 
 ## Licence
 
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+[XXX](https://github.com/XXX)
 
 ## Reference
 [1]User Name, 'Paper Titile' Conference Name pp.xx 20XX
 
-[tcnksm](https://github.com/tcnksm)
+[XXX](https://github.com/XXX)
