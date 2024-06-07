@@ -4,7 +4,7 @@ prediction and analysis in log S
 〜という論文に使用したコードとデータです。このリポジトリはGNNによる学習モデルの構築、予測、結果の分析、データの4つにカテゴライズされています。
 ## Description
 ### Data
-原子の特徴はMAPとIAPの2種類の中から選ぶことができ、使用しない方をコメントアウトして使います。<br>(example)もしあなたがIAPを使用したいなら
+原子の特徴はMAPとIAPの2種類の中から選ぶことができ、使用しない方をコメントアウトして使います。<br>(example)もしあなたがIAPを使用したいならregression.pyに対して
 
 ![choice](https://github.com/STeruhisa/logS/assets/171115343/dc9a69f3-04ef-4c17-99fa-28a3c2ddf47d)
 
@@ -14,7 +14,7 @@ prediction and analysis in log S
 
 
 ### Training
-
+トレーニングを行うにあたり、〇〇と〇〇はoptunaによってハイパーパラメータのfittingを行いました。得られた適切なパラメータを使用したトレーニングは下図のようにregression.pyを書き換えることにより
 ### Prediction
 
 ### Analysis
