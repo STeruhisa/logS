@@ -3,7 +3,6 @@ prediction and analysis in log S
 
 Feature attributions for water-solubility predictions obtained by artificial intelligence methods and chemistsという論文に使用したコードとデータです。このリポジトリにあるコードを実行することによってgraph nural networkを使った学習モデルの構築と予測を行うことができます。
 ## Description
-### Data
 原子の特徴はMAPとIAPの2種類の中から選ぶことができ、使用しない方をコメントアウトして使います。<br>(example)もしあなたがIAPを使用したいならregression.pyに対して
 
 ![choice](https://github.com/STeruhisa/logS/assets/171115343/dc9a69f3-04ef-4c17-99fa-28a3c2ddf47d)
@@ -21,7 +20,7 @@ Feature attributions for water-solubility predictions obtained by artificial int
 
 その後、./training.sh を実行すればtraining　は完了で、ここで得られたtraining情報は.ckptファイルに保存されます。私が実行した一部のckptファイルが置いてあります。
 ### Prediction
-./prediction.sh でpredicition.py を実行します。
+./prediction.sh でpredicition.py を実行します。左側が〇〇値、右側〇〇値としてcsvファイルに保存されます。
 
 ## Requirement
 - python 3.7.13
