@@ -20,7 +20,7 @@ Feature attributions for water-solubility predictions obtained by artificial int
 
 その後、./training.sh を実行すればtraining　は完了で、ここで得られたtraining情報は.ckptファイルに保存されます。私が実行した一部のckptファイルが置いてあります。
 ### Prediction
-./prediction.sh でpredicition.py を実行します。左側が〇〇値、右側〇〇値としてcsvファイルに保存されます。
+./prediction.sh でpredicition.py を実行します。lavelが実験値、ckpt0-4が予測値としてcsvファイルに保存されます。
 
 ## Requirement
 - python 3.7.13
