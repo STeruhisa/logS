@@ -31,12 +31,12 @@ GNNsの予測根拠を示すためにIntegrated Gradients(IGs)という手法を
 得られたIGの結果とHnschのπの値に相関が見られるかを調べることができます。
 ./hansch.shで実行します。-
 ## Requirement
-- python
-- numpy
-- pandas
-- pytorch_lightning
-- torch
-- 
+- python 3.7.13
+- numpy 1.21.5
+- pandas 1.3.5
+- pytorch_lightning 1.9.4
+- torch 1.13.1
+- tqdm 4.66.1
 
 ## Reference
 [1]User Name, 'Paper Titile' Conference Name pp.xx 20XX
