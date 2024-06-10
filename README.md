@@ -1,7 +1,7 @@
 prediction and analysis in log S
 ====
 
-〜という論文に使用したコードとデータです。このリポジトリにあるコードを実行することによってgraph nural networkを使った学習モデルの構築と予測を行うことができます。
+Feature attributions for water-solubility predictions obtained by artificial intelligence methods and chemistsという論文に使用したコードとデータです。このリポジトリにあるコードを実行することによってgraph nural networkを使った学習モデルの構築と予測を行うことができます。
 ## Description
 ### Data
 原子の特徴はMAPとIAPの2種類の中から選ぶことができ、使用しない方をコメントアウトして使います。<br>(example)もしあなたがIAPを使用したいならregression.pyに対して
