@@ -1,4 +1,4 @@
-prediction and analysis in log S
+prediction in log S
 ====
 
 Feature attributions for water-solubility predictions obtained by artificial intelligence methods and chemistsという論文に使用したコードとデータです。このリポジトリにあるコードを実行することによってgraph nural networkを使った学習モデルの構築と予測を行うことができます。
