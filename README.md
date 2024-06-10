@@ -25,9 +25,11 @@ prediction and analysis in log S
 ### Analysis
 
 #### IG
-GNNsの予測根拠を示すためにIntegrated Gradients(IGs)という手法を採用しました。一部の値はbaselineが０出ないため、補正を行っています[1-2]。
+GNNsの予測根拠を示すためにIntegrated Gradients(IGs)という手法を採用しています[1]。一部の値はbaselineが０出ないため、補正を行っています[2]。
+./ig.sh で実行します。
 #### hansch
-
+得られたIGの結果とHnschのπの値に相関が見られるかを調べることができます。
+./hansch.shで実行します。-
 ## Requirement
 - python
 - numpy
@@ -35,17 +37,7 @@ GNNsの予測根拠を示すためにIntegrated Gradients(IGs)という手法を
 - pytorch_lightning
 - torch
 - 
-## Install
-
-## Usage
-
-## Demo
-
-## Licence
-
-[XXX](https://github.com/XXX)
 
 ## Reference
 [1]User Name, 'Paper Titile' Conference Name pp.xx 20XX
 
-[XXX](https://github.com/XXX)
