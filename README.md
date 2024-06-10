@@ -14,7 +14,9 @@ prediction and analysis in log S
 
 
 ### Training
-トレーニングを行うにあたり、〇〇と〇〇の値はoptuna使用してハイパーパラメータのfittingを行うことが可能です。その場合、./training.sh -hyper というふうに実行します。得られた適切なパラメータを使用したトレーニングは下図のようにregression.pyを更新します。
+トレーニングを行うにあたり、〇〇と〇〇の値はoptuna使用したハイパーパラメータのfittingを行うことが可能です。その場合、./training.sh -hyper というふうに実行します。得られた適切なパラメータを使用したトレーニングはregression.pyを更新します。
+
+![スクリーンショット 2024-06-10 14 54 56](https://github.com/STeruhisa/logS/assets/171115343/caa6daba-5cdb-41ef-a526-a2ebf3bedc6d)
 
 
 その後、./training.sh を実行すればtraining　は完了で、ここで得られたtraining情報は.ckptファイルに保存されます。data stored に私が実行した一部のckptファイルが置いてあります。
