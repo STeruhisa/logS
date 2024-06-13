@@ -4,7 +4,7 @@ prediction in log S
 It is code and data used in the paper "Feature attributions for water-solubility predictions obtained by artificial intelligence methods and chemists". The code in this repository can be run to architect graph neural network models and make predictions.
 
 ## Description
-Please select either "MAPs" or "IAPs" and comment out the one you don't use.<br>(example)もしあなたがIAPを使用したいなら ***`regression.py`*** に対して
+Please select either "MAPs" or "IAPs" and comment out the one you don't use.<br>(example)もしあなたがIAPを使用したいなら **`regression.py`** に対して
 に対して
 
 
