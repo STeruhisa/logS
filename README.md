@@ -1,9 +1,11 @@
 prediction in log S
 ====
 
-Feature attributions for water-solubility predictions obtained by artificial intelligence methods and chemistsという論文に使用したコードとデータです。このリポジトリにあるコードを実行することによってgraph nural networkを使った学習モデルの構築と予測を行うことができます。
+It is code and data used in the paper "Feature attributions for water-solubility predictions obtained by artificial intelligence methods and chemists". The code in this repository can be run to architect graph neural network models and make predictions.
+
 ## Description
-原子の特徴はMAPとIAPの2種類の中から選ぶことができ、使用しない方をコメントアウトして使います。<br>(example)もしあなたがIAPを使用したいならregression.pyに対して
+Please select either "MAPs" or "IAPs" and comment out the one you don't use.<br>(example)もしあなたがIAPを使用したいなら <span style="background-color: #FFDDC1;"><i>regression.py</i></span> に対して
+
 
 ![choice](https://github.com/STeruhisa/logS/assets/171115343/dc9a69f3-04ef-4c17-99fa-28a3c2ddf47d)
 
