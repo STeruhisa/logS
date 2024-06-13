@@ -15,7 +15,7 @@ Please select either "MAPs" or "IAPs" and comment out the one you don't use.<br>
 
 
 ### Training
-In training, the code allows for the fitting of hyperparameters using Optuna. In this case, run **'./training.sh -hyper'**. 得られた適切なパラメータを使用したトレーニングはregression.pyを更新します。
+In training, the code allows for the fitting of hyperparameters using Optuna. In this case, run **`./training.sh -hyper`**. 得られた適切なパラメータを使用したトレーニングはregression.pyを更新します。
 
 ![スクリーンショット 2024-06-10 14 54 56](https://github.com/STeruhisa/logS/assets/171115343/caa6daba-5cdb-41ef-a526-a2ebf3bedc6d)
 
