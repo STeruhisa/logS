@@ -5,7 +5,6 @@ It is code and data used in the paper "Feature attributions for water-solubility
 
 ## Description
 Please select either "MAPs" or "IAPs" and comment out the one you don't use.<br>(example)If you want to run an IAP, see the figure below against **`regression.py`** 
-に対して
 
 
 ![choice](https://github.com/STeruhisa/logS/assets/171115343/dc9a69f3-04ef-4c17-99fa-28a3c2ddf47d)
