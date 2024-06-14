@@ -1,7 +1,7 @@
 prediction in log S
 ====
 
-It is code and data used in the paper "Feature attributions for water-solubility predictions obtained by artificial intelligence methods and chemists". The code in this repository can be run to architect graph neural network models and make predictions.
+This git repogitory contents contains code and data used in the paper "Feature attributions for water-solubility predictions obtained by artificial intelligence methods and chemists". This code in this repository can be run to architect graph neural network models and make predictions.
 
 ## Description
 Please select either "MAPs" or "IAPs" and comment out the one you don't use.<br>(example) If you want to run IAPs, see the figure below against **`regression.py`** 
@@ -19,10 +19,10 @@ In training, the code allows for the fitting of hyperparameters using Optuna. In
 
 ![スクリーンショット 2024-06-10 14 54 56](https://github.com/STeruhisa/logS/assets/171115343/caa6daba-5cdb-41ef-a526-a2ebf3bedc6d)
 
-After the parameters are updated, if you operate **`./traing.sh`** and will finish training shortly. The training information gained is saved in the **`.ckpt`** file and also some of the **`.ckpt`** files I operated were placed in the **`dirckpt`** directory.
+After the parameters are updated, if you operate **`./traing.sh`** and will finish training shortly. The obtained training information is saved in the **`.ckpt`** file. Some of the **`.ckpt`** files were placed in the **`dirckpt`** directory, as examples.
 
 ### Prediction
-**`./prediction.sh`** to run **`predicition.py`**, where lavel is the experimental value and ckpt0-4 is the predicted value, saved in a **`.csv`** file.
+**`./prediction.sh`** to run **`predicition.py`**, where label is the experimental value and ckpt0-4 is the predicted value, saved in a **`.csv`** file.
 
 ## Requirement
 - python 3.7.13
