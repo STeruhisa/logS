@@ -19,7 +19,7 @@ In training, the code allows for the fitting of hyperparameters using Optuna. In
 
 ![スクリーンショット 2024-06-10 14 54 56](https://github.com/STeruhisa/logS/assets/171115343/caa6daba-5cdb-41ef-a526-a2ebf3bedc6d)
 
-After the parameters are updated, if you operate **`./traing.sh`** and will finish training shortly.
+After the parameters are updated, if you operate **`./traing.sh`** and will finish training shortly. The training information gained is saved in the **`.ckpt`** file.
 その後、./training.sh を実行すればtraining　は完了で、ここで得られたtraining情報は.ckptファイルに保存されます。私が実行した一部のckptファイルが置いてあります。
 ### Prediction
 ./prediction.sh でpredicition.py を実行します。lavelが実験値、ckpt0-4が予測値としてcsvファイルに保存されます。
