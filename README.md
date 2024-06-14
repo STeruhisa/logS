@@ -15,7 +15,7 @@ Please select either "MAPs" or "IAPs" and comment out the one you don't use.<br>
 
 
 ### Training
-In training, the code allows for the fitting of hyperparameters using Optuna. In this case, run **`./training.sh -hyper`**. If you want to use the optimal parameters obtained, update the hyper parameters section in **`regression.py`** (orange numerical parts in the figure below).
+In training, the code allows for the fitting of hyperparameters using Optuna. In this case, run **`./training.sh -hyper`**. If you want to use the optimal parameters obtained, update the hyper parameters section in **`regression.py`** (the numerical parts of orange color in the figure below).
 
 ![スクリーンショット 2024-06-10 14 54 56](https://github.com/STeruhisa/logS/assets/171115343/caa6daba-5cdb-41ef-a526-a2ebf3bedc6d)
 
