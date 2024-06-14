@@ -22,7 +22,7 @@ In training, the code allows for the fitting of hyperparameters using Optuna. In
 After the parameters are updated, if you operate **`./traing.sh`** and will finish training shortly. The training information gained is saved in the **`.ckpt`** file and also some of the **`.ckpt`** files I operated were placed in the **`dirckpt`** directory.
 
 ### Prediction
-./prediction.sh でpredicition.py を実行します。lavelが実験値、ckpt0-4が予測値としてcsvファイルに保存されます。
+**`./prediction.sh`** to run **`predicition.py`**, where lavel is the experimental value and ckpt0-4 is the predicted value, saved in a **`.csv`** file.
 
 ## Requirement
 - python 3.7.13
